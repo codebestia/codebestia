@@ -47,7 +47,7 @@ contract Profile {
 
     // Function to get my social links (contact me if you dare 😎)
     function getContact() public view returns (string memory, string memory, string memory, string memory) {
-        return (twitter, linkedin, email, discord);
+        return (email);
     }
 
     // Function to describe my current quest
