@@ -62,7 +62,7 @@ contract Profile {
 
     // Fallback function for fun
     fallback() external payable {
-        revert("You've interacted with my profile. Your fund security are my priority 😎?");
+        revert("You've interacted with my profile. Your fund security is my priority 😎?");
     }
 }
 ```
